@@ -21,7 +21,7 @@ model = Chain(
 
 # Load and preprocess images
 
-image_paths = ["images\\preprocessed_1.png", "images\\preprocessed_2.png", "images\\preprocessed_3.png"]
+image_paths = ["images\\preprocessed\\preprocessed_1.png", "images\\preprocessed\\preprocessed_2.png", "images\\preprocessed\\preprocessed_3.png"]
 images = [load(path) for path in image_paths]
 
 # Perform forward pass
