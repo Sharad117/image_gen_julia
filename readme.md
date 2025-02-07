@@ -18,7 +18,7 @@ Once the dependencies are installed run the following command in the terminal to
 
 python main.py
 
-
+For a more interactive execution of the code, you can run the image_gen.ipynb and preprocess.ipynb jupyter notebooks. 
 # Convolution Forward pass
 
 Open terminal and change directory to my_project by using the command
