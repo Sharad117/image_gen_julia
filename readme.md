@@ -23,18 +23,18 @@ python main.py
 
 Open terminal and change directory to my_project by using the command
 
-cd my_project
+"cd my_project"
 
 Open a Julia REPL by running the command 
 
-julia in the terminal. Then enter the package manager mode by typing ']'. Now within the package manager activate the project by typing
+"julia" in the terminal. Then enter the package manager mode by typing ']'. Now within the package manager activate the project by typing
 
-activate .
+"activate ."
 
 Install all the dependencies in Project.toml by running
 
-instantiate
+"instantiate"
 
-Exit the REPL and go back to parent directory of my_project. Run the julia file by running the command
+Exit the package manager by pressing backspace, and exit the REPL by typing in "exit()". Go back to parent directory of my_project, i.e., image_gen_julia. Run the julia file by running the command
 
-julia my_project/model.jl
+"julia my_project/model.jl"
